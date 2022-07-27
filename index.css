@@ -10,48 +10,78 @@ body{
 }   
 #header{
         background: #292929;
+        height: 120px;
+        width: 100%;
 
 }
-.principio{
-    background-image: url(60e7c09030232.jpeg);
-}
-
 .menu{
-    width: 900px;
+    width: 100%px;
+    height: 120px;
     margin: 0 auto;
 }
 nav{
     float: right;
-}
+
+  }
 
 nav ul li{ 
     list-style: none;
-    margin-left: 15px;
+    margin-left: 0px;
     padding: 45px;
     float:left;
     color: aliceblue;
+    text-overflow: ellipsis;
+    cursor: pointer;
 }
-
-    #logo{
-    width: 360px;
-    height: 238px;
+#logo{
+    width: 180px;
+    height: 120px;
 }
 
 #lista{
     inline:inline-block;
 }
 
-#hathayoga{
-    font-size: 48px;
-    color:darkblue;
+.capa1{
+    background-image:url(./img/60e7c09030232.jpeg);
+    background-repeat:repeat-x;
+    width: 100%;
+    height: 500px;
 }
 .right{
-    margin-left: 1000px;
-    margin-right: 0;
-    margin-top: 8px;
+    margin-left: 0px;
+    margin-right: 220px;
+    margin-top: 48px;
     margin-bottom: 20px;
+    text-align: center;
+    width: 200px;
+    position: relative;
+    float: right;
+      
+}
+.search{
+    margin-left: 500px;
+    margin-right: 220px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 200px;
+    float: right;
+    
+    
     
 }
+.titulos{
+    font-size: 48px;
+    color:darkblue;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 3px 5px 5px black;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    }
 .botones{
     margin:0px;
     margin-top: 10px;
@@ -66,9 +96,4 @@ nav ul li{
     color: blue;
     background-color: orange;
     cursor: pointer;
-}
-
-#pilates{
-    font-size: 48px;
-    color: darkblue;
 }
