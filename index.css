@@ -22,8 +22,7 @@ body{
 nav{
     float: right;
 
-  }
-
+}
 nav ul li{ 
     list-style: none;
     margin-left: 0px;
@@ -37,11 +36,6 @@ nav ul li{
     width: 180px;
     height: 120px;
 }
-
-#lista{
-    inline:inline-block;
-}
-
 .capa1{
     background-image:url(./img/60e7c09030232.jpeg);
     background-repeat:no-repeat;
@@ -59,7 +53,6 @@ nav ul li{
     width: 200px;
     position: relative;
     float: right;
-      
 }
 .search{
     margin-left: 500px;
@@ -69,9 +62,6 @@ nav ul li{
     text-align: center;
     width: 200px;
     float: right;
-    
-    
- 
 }
 #img-pilates{
     float: none;
@@ -88,7 +78,7 @@ nav ul li{
     padding: 10px;
     margin-top: 15px;
     margin-bottom: 25px;
-    }
+}
 .botones{
     margin:0px;
     margin-top: 10px;
@@ -110,5 +100,4 @@ nav ul li{
     margin-left: 10px;
     margin-right: 10px;
     background-color: cornsilk;
-    
 }
