@@ -6,16 +6,35 @@
 body{
         background-color: #efefef;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     
+}
 
+a { text-decoration: none;
+    color:antiquewhite;
 }   
+header {
+    background-color: #292929;
+    color: aliceblue;
+    padding: 0.5em;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: relative;
+    top: 0px;
+    width: calc(100% - 1px);
+
+    z-index: 1;
+}
+/*
 #header{
         background: #292929;
         height: 120px;
         width: 100%;
-
-}
+*/
 .menu{
-    width: 100%px;
+    width: 100%;
     height: 120px;
     margin: 0 auto;
 }
@@ -31,18 +50,35 @@ nav ul li{
     color: aliceblue;
     text-overflow: ellipsis;
     cursor: pointer;
+    text-decoration: none;
+    
 }
 #logo{
     width: 180px;
     height: 120px;
 }
-.capa1{
+#principio{
+
+    display: flex;
+    flex-flow: row nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 30%;
     background-image:url(./img/60e7c09030232.jpeg);
     background-repeat:no-repeat;
     background-size:100% 100%;
-    width: 100%;
     height: 500px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+   
+}
+.capa1{
     
+    width: 30%;
+    height: 300px;
+    background-color: lightgray;
+    text-align: left;
+   
 }
 .right{
     margin-left: 0px;
@@ -52,16 +88,13 @@ nav ul li{
     text-align: center;
     width: 200px;
     position: relative;
-    float: right;
+    display: block;
 }
 .search{
-    margin-left: 500px;
-    margin-right: 220px;
-    margin-top: 48px;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 200px;
-    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-end
+      
 }
 #img-pilates{
     float: none;
@@ -86,8 +119,9 @@ nav ul li{
     padding: 5px;
     background-color: royalblue;
     color:white;
-    width: 100%;
-    ;
+    width: 20%;
+    align-items: center;
+    
 }
 .botones:hover{
     color: blue;
@@ -109,3 +143,4 @@ footer{
     text-align: center;
     color:aliceblue;
     }
+    
