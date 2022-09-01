@@ -1,22 +1,25 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
-        background-color: #efefef;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     
+
+body {
+    background-color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
-a { text-decoration: none;
-    color:antiquewhite;
-}   
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
 header {
     background-color: #292929;
     color: aliceblue;
     padding: 0.5em;
-    
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,83 +30,123 @@ header {
 
     z-index: 1;
 }
-/*
-#header{
-        background: #292929;
-        height: 120px;
-        width: 100%;
-*/
-.menu{
+
+.menu {
     width: 100%;
     height: 120px;
     margin: 0 auto;
 }
-nav{
+
+nav {
     float: right;
 
 }
-nav ul li{ 
+
+nav ul li {
     list-style: none;
     margin-left: 0px;
     padding: 45px;
-    float:left;
+    float: left;
     color: aliceblue;
     text-overflow: ellipsis;
     cursor: pointer;
     text-decoration: none;
-    
+
 }
-#logo{
+
+#logo {
     width: 180px;
     height: 120px;
 }
-#principio{
+
+#principio {
 
     display: flex;
     flex-flow: row nowrap;
     flex-direction: row;
     justify-content: space-between;
     flex-basis: 30%;
-    background-image:url(./img/60e7c09030232.jpeg);
-    background-repeat:no-repeat;
-    background-size:100% 100%;
-    height: 500px;
+    background-image: url(./img/yogalife.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 900px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-   
+
 }
-.capa1{
-    
-    width: 30%;
-    height: 300px;
+
+.capa1 {
+
+    width: 23%;
+    height: 325px;
     background-color: lightgray;
     text-align: left;
-   
+    border-radius: 5px;
+    border-collapse: unset;
+    border: groove;
 }
-.right{
-    margin-left: 0px;
-    margin-right: 220px;
-    margin-top: 48px;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 200px;
-    position: relative;
-    display: block;
+
+.right {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    place-items: end;
+    justify-items: stretch;
+    padding-right: 3em;
+    height: 380px;
+    width: 350px;
+    padding-top: 1em;
+
+
 }
-.search{
+
+.right>.botones {
+    display: flex;
+    flex-direction: column;
+    flex-grow: unset;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+#YogaInfo {
+    position: absolute;
+    top: 23%;
+    left: 75%;
+    font-size: large;
+
+}
+
+#YogaInfo>ul {
+    list-style: none;
+}
+
+.search {
     display: flex;
     flex-direction: row-reverse;
-    justify-content:flex-end
-      
+    justify-content: flex-end;
+    margin-top: 1em;
+
 }
-#img-pilates{
+
+#versus {
+    float: right;
+    margin-right: 10%;
+}
+
+#img-pilates {
     float: none;
     width: 100%;
     height: 80%;
 }
-.titulos{
+
+#pilates {
+    background-image: url(./img/aparatos-pilates.jpg);
+    background-repeat: no-repeat;
+}
+
+.titulos {
     font-size: 48px;
-    color:darkblue;
+    color: darkblue;
     text-align: center;
     text-decoration: underline;
     text-shadow: 3px 5px 5px black;
@@ -112,35 +155,52 @@ nav ul li{
     margin-top: 15px;
     margin-bottom: 25px;
 }
-.botones{
-    margin:0px;
+
+.botones {
+    margin: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px;
     background-color: royalblue;
-    color:white;
-    width: 20%;
+    color: white;
     align-items: center;
-    
+
 }
-.botones:hover{
+
+.botones:hover {
     color: blue;
     background-color: orange;
     cursor: pointer;
 }
-.video-container{
-    padding: 25px;
+
+.video-container {
+    /*padding: 25px;
     margin: 0px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: cornsilk;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;*/
+    border-right: 1px solid black;
+    flex-basis: calc(60% - 1px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
-footer{
+
+#videospilates {
+    width: 100%;
+}
+
+footer {
     background-color: #292929;
     padding: 15px;
     width: 100%;
     height: 60px;
     text-align: center;
-    color:aliceblue;
-    }
-    
+    color: aliceblue;
+}
