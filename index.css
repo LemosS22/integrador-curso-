@@ -151,11 +151,15 @@ nav ul li {
     float: right;
     position: relative;
     margin-right: 10%;
+    border: 1px solid grey;
+    border-radius: 3px;
 }
 
 #yoga{
     margin-bottom: 3em;
     margin-top: 3em;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 
 #botonespilatesvid {
@@ -189,6 +193,8 @@ nav ul li {
     background-image: url(./img/b3b1783ae696446612f16e17b42c41cc.jpeg);
     background-size: cover;
     height: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 
 .titulos {
@@ -203,7 +209,7 @@ nav ul li {
 }
 
 .botones {
-    margin: 0px;
+    margin: 20%;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px;
@@ -254,6 +260,58 @@ nav ul li {
     float: right;
     width: 25%;
     margin: 5em;
+}
+section#sobreNosotros {
+    min-height: 120vh;
+    display: flex;
+    flex-flow: row nowrap;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    flex-direction: column;
+    
+    
+}
+
+#sobreNosotros > div:nth-child(1) {
+    border-right: 1px solid black;
+    flex-basis: calc(60% - 1px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sobreNosotros > div:nth-child(1) > * {
+    width: 80%;
+}
+
+#sobreNosotros > div:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sobreNosotros #card {
+    border: 1px solid black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#sobreNosotros #card img {
+    width: 100%;
+}
+
+#sobreNosotros #card p {
+    text-align: center;
+}
+#card{ display: flex;
+    justify-content: flex-start;
+
+
 }
 
 footer {
