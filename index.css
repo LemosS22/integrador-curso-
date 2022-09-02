@@ -155,7 +155,7 @@ nav ul li {
     border-radius: 3px;
 }
 
-#yoga{
+#yoga {
     margin-bottom: 3em;
     margin-top: 3em;
     border: 1px solid grey;
@@ -248,6 +248,7 @@ nav ul li {
 
 
 }
+
 /*.video-container >#video1{
     display: block;
 }*/
@@ -261,32 +262,35 @@ nav ul li {
     width: 25%;
     margin: 5em;
 }
+
 section#sobreNosotros {
     min-height: 120vh;
     display: flex;
-    flex-flow: row nowrap;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    /* flex-flow: row nowrap;*/
+    /* border: 1px solid black;*/
     flex-direction: column;
-    
-    
+    align-items: center;
+    background-image: url(./img/piedras.jpg);
+    background-size: 100%;
+
+
 }
 
-#sobreNosotros > div:nth-child(1) {
+#sobreNosotros>div:nth-child(1) {
     border-right: 1px solid black;
     flex-basis: calc(60% - 1px);
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+
 }
 
-#sobreNosotros > div:nth-child(1) > * {
+#sobreNosotros>div:nth-child(1)>* {
     width: 80%;
 }
 
-#sobreNosotros > div:nth-child(2) {
+#sobreNosotros>div:nth-child(2) {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -294,10 +298,19 @@ section#sobreNosotros {
 }
 
 #sobreNosotros #card {
-    border: 1px solid black;
+    border: 1px dashed black;
     width: 300px;
+    margin: 3em;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    margin: 2px;
+    border-style: groove;
+    box-shadow: 1px 2px 3px grey;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 5px #ec731e;
+    -webkit-box-shadow: 0px 0px 5px 5px #ec731e;
+    transition: all .5s ease-in-out;
 
 }
 
@@ -308,12 +321,41 @@ section#sobreNosotros {
 #sobreNosotros #card p {
     text-align: center;
 }
-#card{ display: flex;
-    justify-content: flex-start;
 
+#sobreNosotros>h3 {
+    padding: 5px;
+    margin: 12px;
+}
+
+#horarios {
+    margin: 25px;
+    padding: 25px;
+    width: 20%;
+    height: auto;
+    color: aliceblue;
+    background-color: forestgreen;
+    border: 0.1 px #292929;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: larger;
+}
+#contacto{
+    min-height: 120vh;
+    background-image: url(./img/pilates.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  
+}
+#formulario{
+    width: 33%;
 
 }
 
+#firmat{
+    float: left;
+
+
+}
 footer {
     background-color: #292929;
     padding: 15px;
@@ -321,4 +363,6 @@ footer {
     height: 60px;
     text-align: center;
     color: aliceblue;
+    display: flex;
+    justify-content: space-between;
 }
