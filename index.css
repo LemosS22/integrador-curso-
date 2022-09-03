@@ -341,8 +341,8 @@ section#sobreNosotros {
 }
 #contacto{
     min-height: 120vh;
-    background-image: url(./img/pilates.png);
-    background-size: 100%;
+    background-image: url(./img/LOTO2.jpg);
+    background-size: auto;
     background-repeat: no-repeat;
   
 }
@@ -353,6 +353,7 @@ section#sobreNosotros {
 
 #firmat{
     float: left;
+
 
 
 }
