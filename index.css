@@ -190,7 +190,8 @@ nav ul li {
 }
 
 #pilates {
-    background-image: url(./img/b3b1783ae696446612f16e17b42c41cc.jpeg);
+    min-height: 120vh;
+    background-image: url(./img/LOTO.jpg);
     background-size: cover;
     height: 100%;
     border: 1px solid grey;
@@ -227,10 +228,10 @@ nav ul li {
 
 
 .video-container {
-    background-image: url(./img/b3b1783ae696446612f16e17b42c41cc.jpeg);
+    /*background-image: url(./img/LOTO.jpg);
     background-size: cover;
     height: 100%;
-    margin-top: 6em;
+    margin-top: 6em;*/
     /*padding: 25px;
     margin: 0px;
     margin-left: 10px;
@@ -339,22 +340,49 @@ section#sobreNosotros {
     cursor: pointer;
     font-size: larger;
 }
+
+
 #contacto{
     min-height: 120vh;
     background-image: url(./img/LOTO2.jpg);
-    background-size: auto;
-    background-repeat: no-repeat;
-  
+    background-size: cover;
+    height: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
+
 #formulario{
-    width: 33%;
+    width: 50%;
+    min-height: 90vh;
+    margin: 3em;
+    padding: 3em;
+
 
 }
+#enviar{
+    margin: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: royalblue;
+    color: white;
+    align-items: center;
+    border: 0.1px solid gray;
+    border-radius: 5px;
 
+    cursor: pointer;
+
+}
+/*
 #firmat{
     float: left;
 
 
+
+}*/
+.legends{
+    padding: 20px;
+    margin: 20px;
 
 }
 footer {

@@ -111,6 +111,7 @@
                 title="PILATES REFORMER. NUEVAS IDEAS" frameborder="1"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
+                <iframe width="50%" height="550px" src="https://www.youtube.com/embed/DF_L7mPsv5c?list=RDCMUCRGL8R2y7BQjtYcFxHSTijA" title="PILATES CON BANDA ELÁSTICA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div>
                 <input type="button" class="botones" value="Ver más videos">
             </div>
@@ -149,7 +150,7 @@
     </section>
     <h2 class="titulos"> CONTACTO </h2>
     <section id="contacto">
-        <div id="formulario">
+        <!--<div id="formulario">
             <p id="contactoLeyenda">Por favor ingrese su consulta a continuación y le contestaremos a la brevedad</p>
             <input type="text" name="Nombre" value="Nombre" placeholder="Nombre"> <input type="text" name="apellido"
                 value="apellido" placeholder="apellido">
@@ -157,6 +158,35 @@
             <input type="textarea" id="textarea" >
             <input type="button" id="enviar" name="enviar" value="enviar">
             
+        </div>-->
+        <div>
+                      
+            <form id="formulario" action="" method="GET" enctype="multipart/form-data">
+                <h2> Formulario de Contacto </h2>
+                <fieldset>
+                    <legend class="legends" style="font-size: larger">Información Básica</legend>
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre">
+
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido">
+
+                </fieldset>
+
+                <fieldset>
+                    <legend class="legends" style="font-size: larger">Información de Contacto</legend>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="number" name="telefono">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email">
+                    
+                    <label for="comentarios">Comentarios:</label><br>
+                    <textarea name="comentarios" cols="50" rows="20"></textarea>
+
+                    <input type="button" value="Enviar" id="enviar">
         </div>
         <div id="firmat">
             <iframe
