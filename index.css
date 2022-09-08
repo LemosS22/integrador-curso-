@@ -317,8 +317,13 @@ section#sobreNosotros {
     justify-items: center;
     margin: auto;
     
+    
 
 }
+#card:hover{
+    transform: scale(1.05);
+}    
+
 
 #sobreNosotros #card img {
     width:auto;
@@ -344,7 +349,7 @@ section#sobreNosotros {
     width: 50%;
     height: auto;
     color: aliceblue;
-    background-color: forestgreen;
+    background-color:  rgb(50, 122, 65);;
     border: 0.1 px #292929;
     border-radius: 10px;
     cursor: pointer;
@@ -352,6 +357,12 @@ section#sobreNosotros {
     grid-column-start: 2;
     grid-column-end: span 3;
     align-items: center;
+}
+#horarios:hover{
+    transform: scale(0.95);
+    transition: 0.2s 0.3s;
+    background-color: forestgreen; 
+    
 }
 
 
