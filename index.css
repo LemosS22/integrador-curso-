@@ -450,6 +450,7 @@ section#sobreNosotros {
     -webkit-box-shadow: 0px 0px 10px 10px #292929;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
+    cursor: pointer;
 }
 
 
